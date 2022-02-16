@@ -13,10 +13,12 @@ Página autoral criada com base em estudos sobre funcionalidades da versão 3 do
 HTML5 / CSS3 / JS (ES5)
 
 ## Web layout: 
-![]() 
+[Desktop lights off](https://github.com/Vit0rg/Light/blob/main/demo/desktop_off.png) 
+[Desktop lights on](https://github.com/Vit0rg/Light/blob/main/demo/desktop_on.png)
 
 ## Mobile layout: 
-![]() 
+[Mobile lights off](https://github.com/Vit0rg/Light/blob/main/demo/mobile_off.png) 
+[Mobile lights on](https://github.com/Vit0rg/Light/blob/main/demo/mobile_on.png)
 
 ## Autor:
 Vit0rg
