@@ -6,7 +6,7 @@ Lâmpada LED com interruptor funcional.
 Página autoral criada com base em estudos sobre funcionalidades da versão 3 do CSS e manipulação do DOM usando JS.
 
 ## Disponível em:
-[Github-page](https://vit0rg.github.io/Light/)
+[GitHub-page](https://vit0rg.github.io/Light/)
 
 ## Tecnologias usadas:
 > Front end:
@@ -34,7 +34,7 @@ LED lamp with functional switch.
 Author's page created based on studies on CSS version 3 functionality and DOM manipulation using JS.
 
 ## Available at:
-[Github-page] (https://vit0rg.github.io/Light/) 
+[GitHub-page](https://vit0rg.github.io/Light/) 
 
 ## Technologies used: 
 > Front end: 
