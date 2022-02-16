@@ -1,2 +1,44 @@
+**PT-BR**
+# Luz
+
+## Sobre o projeto:
+Lâmpada LED com interruptor funcional.
+Página autoral criada com base em estudos sobre funcionalidades da versão 3 do CSS e manipulação do DOM usando JS.
+
+## Disponível em:
+[Github-page]()
+
+## Tecnologias usadas:
+> Front end:
+HTML5 / CSS3 / JS (ES5)
+
+## Web layout: 
+![]() 
+
+## Mobile layout: 
+![]() 
+
+## Autor:
+Vit0rg
+
+## Licença:
+[MIT](https://github.com/Vit0rg/Light/blob/main/LICENSE)
+
+**EN**
 # Light
-Web page simulating a LED lamp with functional switch
+
+## About the project: 
+LED lamp with functional switch.
+Author's page created based on studies on CSS version 3 functionality and DOM manipulation using JS.
+
+## Available at: [Github-page] () 
+
+## Technologies used: 
+> Front end: 
+HTML5 / CSS3 / JS (ES5) 
+
+## Author: 
+Vit0rg 
+
+## License:
+[MIT](https://github.com/Vit0rg/Light/blob/main/LICENSE)
