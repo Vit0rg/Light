@@ -1,0 +1,144 @@
+*:root
+{
+  --black: 0, 0%, 0%;
+  --white: 0, 0%, 100%;
+  --gray: 0, 0%, 60%;
+}
+
+*, ::after, ::before
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  background-color: hsl(var(--black));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header
+{
+  padding: 1% 1% 1% 0;
+  background-color: hsla(var(--black), 80%);
+  color: hsl(var(--gray));
+  font-size: min(190%, 2em);
+  letter-spacing: .2em;
+  text-align: center;
+  width: 100%;
+  max-height: 22vh;
+}
+
+main
+{
+  height: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#light-bulb
+{
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+}
+
+.support
+{
+  height: 70px;
+  width: 40px;
+  background-color: hsl(var(--gray));
+  border-radius: 10%;
+}
+
+.bulb
+{
+  min-height: 50px;
+  width: 350px;
+  background-color: hsla(var(--white), 10%);
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: hsl(var(--white));
+}
+
+#switch
+{
+  height: 300px;
+  width: min(250px, 70%);
+  border-radius: 20%;
+  background-color: hsl(var(--gray));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.screw
+{
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: hsl(64, 100%, 15%);
+  border: 1px solid hsl(64, 100%, 10%);
+}
+
+#button-case
+{
+  height: 100px;
+  width: 50px;
+  background-color: hsl(120, 100%, 85%);
+  border: 1px solid hsla(var(--black), 60%);
+  transform: rotate(180deg);
+}
+
+button
+{
+  height: 30px;
+  width: 100%;
+  background-color: hsl(120, 100%, 70%);
+  border: 1px solid hsl(120, 100%, 60%);
+}
+
+button:hover
+{
+  cursor: pointer;
+  border: none;
+}
+
+button:active
+{
+  background-color: hsl(120, 100%, 85%);
+}
+
+.bulb-on
+{
+  background-color: hsl(var(--white));
+  border-color: hsla(var(--white), 25%);
+}
+
+.toggle
+{
+  transform: rotate(180deg);
+}
+
+.lights-on
+{
+  background-color: hsla(var(--black), 10%);
+}
+
+.body-lights-on
+{
+  filter: brightness(130%);
+  background-image: radial-gradient(closest-corner at 50% 30%, hsl(0, 0%, 65%) 35%, hsl(0, 0%, 40%));
+}
